@@ -4,15 +4,19 @@
 body{
     font-family: 'Abel';
     background-color: rgb(158, 182, 112);
+    margin: 8px;
+    display:block;
 }
-p {
-    color: #488d60 ;
+.funParragraph {
+    color: green ;
   }
 
-  h1{
-    color: rgb(32, 71, 56);
+
+#mainHeading {
+    color:red;
     text-align: center;
-  }
+}
+
 
   h3{
     color: #87a519;
@@ -22,8 +26,8 @@ p {
     padding: 20px;
     background-color: rgb(32, 71, 56);
     font-size: 14px;
-    color: white;
-    margin: -10px;
+    color: #488d60;
+    margin: -20px;
   }
 
   header, main{
