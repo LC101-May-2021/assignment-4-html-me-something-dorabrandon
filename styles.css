@@ -1,1 +1,116 @@
 /* Write your CSS here! */
+
+
+body{
+    font-family: 'Abel';
+    background-color: rgb(158, 182, 112);
+    margin: 8px;
+    display:block;
+}
+
+.funParagraph {
+    color: green ;
+  }
+
+#mainHeading {
+    color:red;
+    text-align: center;
+}
+
+
+h2{
+    padding-top: 5px;
+    font-size: 25px;
+    color: #074183;
+    text-align: center;
+  }
+
+  h3{
+    padding-top: 5px;
+    color: #87a519;
+  }
+
+  header, main{
+      background-color: rgba(204, 204, 204, 0.61);
+      padding: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+  img {
+    display: block;  
+    border-color: rgb(230, 247, 238);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+
+  nav {
+    background-color: transparent;
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0px;
+    word-spacing: 20px;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  #firstImage{
+      display: inline-block;
+  }
+
+  footer{
+    padding: 25px;
+    background-color: rgb(32, 71, 56);
+    margin: -20px;
+  }
+
+  footer div{
+      padding-left: 30px;
+      color: white;
+      font-size: 12px;
+  }
+
+  a{
+    padding: 1pc;
+    text-decoration: none;
+  }
+
+  a:link{
+    color: olive ;
+  }
+
+  a:visited{
+    color: olive;
+  }
+
+  a:hover{
+      color:purple;
+      text-decoration: underline;
+  }
+
+  div.gallery {
+    margin: 3px;
+    width: 300px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.desc {
+    padding: 0px;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 12px;
+  }
