@@ -14,9 +14,17 @@ body{
 
 #mainHeading {
     color:red;
+
     text-align: center;
 }
 
+
+h2{
+    padding-top: 5px;
+    font-size: 25px;
+    color: #074183;
+    text-align: center;
+  }
 
   h3{
     padding-top: 5px;
@@ -37,6 +45,7 @@ body{
       margin: 5px;
       display: block;
       width: 45%;
+
   }
 
   .nav {
@@ -86,4 +95,27 @@ body{
   a:hover{
       color:purple;
       text-decoration: underline;
+  }
+
+  div.gallery {
+    margin: 3px;
+    width: 300px;
+  }
+  
+
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 0px;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .grown{
+      float: left;
   }
