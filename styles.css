@@ -1,1 +1,32 @@
 /* Write your CSS here! */
+body{
+    font-family: 'Abel';
+    background-color: rgb(158, 182, 112);
+}
+p {
+    color: #488d60 ;
+  }
+
+  h1{
+    color: rgb(32, 71, 56);
+    text-align: center;
+  }
+
+  h3{
+    color: #87a519;
+  }
+
+  footer{
+    padding: 20px;
+    background-color: rgb(32, 71, 56);
+    font-size: 14px;
+    color: white;
+    margin: -10px;
+  }
+
+  header, main{
+      background-color: rgba(204, 204, 204, 0.61);
+      padding: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
